@@ -5,7 +5,6 @@ public class exercicio1 {
 	System.out.println("ArrayValores [5]\n");
 	for(int linha=0 ; linha < 5 ; linha++){
 	System.out.printf("Insira o elemento Valores [%d]: ", linha+1);
-	
 	int teste= entrada.nextInt(); 
 	if (teste%2!=0) {
 		System.out.println("Este vetor aceita somente numeros pares");
